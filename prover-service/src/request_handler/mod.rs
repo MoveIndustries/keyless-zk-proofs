@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 pub mod deployment_information;
 pub mod handler;

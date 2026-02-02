@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 use crate::error::ProverServiceError;
 use crate::utils;

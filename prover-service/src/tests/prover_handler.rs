@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 use crate::external_resources::jwk_types::{FederatedJWKs, Issuer, KeyID};
 use crate::request_handler::deployment_information::DeploymentInformation;

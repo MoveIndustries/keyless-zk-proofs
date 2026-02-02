@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/aptos-labs/keyless-zk-proofs.git"
+    "url": "https://github.com/moveindustries/keyless-zk-proofs.git"
   },
   "author": "Alin Tomescu",
   "license": "Apache-2.0",

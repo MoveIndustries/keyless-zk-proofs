@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 use crate::external_resources::jwk_fetcher::{
     get_federated_jwk, AUTH0_ISSUER_NAME, AUTH0_REGEX_STR, COGNITO_ISSUER_NAME, COGNITO_REGEX_STR,

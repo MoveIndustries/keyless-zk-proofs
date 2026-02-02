@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 use super::field_parser::ParsedField;
 use crate::input_processing::field_parser::FieldParser;

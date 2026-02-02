@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 use crate::external_resources::jwk_types::{JWKCache, JWKIssuerInterface, KeyID};
 use crate::{error::ProverServiceError, external_resources::jwk_fetcher};

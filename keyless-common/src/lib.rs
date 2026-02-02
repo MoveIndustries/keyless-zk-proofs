@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 pub mod input_processing;
 pub mod snark_js_groth16;

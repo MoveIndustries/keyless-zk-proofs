@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 use super::circuit_config::CircuitConfig;
 use crate::input_processing::encoding::{Padded, Unpadded};

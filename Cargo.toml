@@ -4,34 +4,34 @@ resolver = "2"
 members = ["circuit", "keyless-common", "prover-service", "release-helper", "rust-rapidsnark", "vk-diff"]
 
 [workspace.package]
-authors = ["Aptos Labs <opensource@aptoslabs.com>"]
+authors = ["Move Industries"]
 edition = "2021"
 homepage = "https://aptoslabs.com"
 license = "GPL3"
 publish = false
-repository = "https://github.com/aptos-labs/keyless-zk-proofs"
+repository = "https://github.com/moveindustries/keyless-zk-proofs"
 rust-version = "1.85.0"
 
 [workspace.dependencies]
 anyhow = "1.0.98"
-aptos-build-info = { git = "https://github.com/aptos-labs/aptos-core", rev = "0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627" }
-aptos-crypto = { git = "https://github.com/aptos-labs/aptos-core", branch = "main" } # TODO: pin to a specific rev
-aptos-crypto-derive = { git = "https://github.com/aptos-labs/aptos-core", rev = "0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627" }
-aptos-infallible = { git = "https://github.com/aptos-labs/aptos-core", rev = "0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627" }
+aptos-build-info = { git = "https://github.com/moveindustries/aptos-core", rev = "0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627" }
+aptos-crypto = { git = "https://github.com/moveindustries/aptos-core", branch = "l1-migration" } # TODO: pin to a specific rev
+aptos-crypto-derive = { git = "https://github.com/moveindustries/aptos-core", rev = "0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627" }
+aptos-infallible = { git = "https://github.com/moveindustries/aptos-core", rev = "0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627" }
 aptos-keyless-common = { path = "keyless-common" }
-aptos-logger = { git = "https://github.com/aptos-labs/aptos-core", rev = "0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627" }
-aptos-metrics-core = { git = "https://github.com/aptos-labs/aptos-core", rev = "0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627" }
-aptos-time-service = { git = "https://github.com/aptos-labs/aptos-core", rev = "0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627", features = [
+aptos-logger = { git = "https://github.com/moveindustries/aptos-core", rev = "0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627" }
+aptos-metrics-core = { git = "https://github.com/moveindustries/aptos-core", rev = "0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627" }
+aptos-time-service = { git = "https://github.com/moveindustries/aptos-core", rev = "0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627", features = [
   "async",
 ] }
-aptos-types = { git = "https://github.com/aptos-labs/aptos-core", branch = "main" } # TODO: pin to a specific rev
+aptos-types = { git = "https://github.com/moveindustries/aptos-core", branch = "l1-migration" } # TODO: pin to a specific rev
 ark-bn254 = "0.4.0"
 ark-ff = "0.4.0"
 ark-groth16 = "0.4.0"
 ark-serialize = "0.4.0"
 async-trait = "0.1.53"
 base64 = "0.13.0"
-bcs = { git = "https://github.com/aptos-labs/bcs.git", rev = "d31fab9d81748e2594be5cd5cdf845786a30562d" }
+bcs = { git = "https://github.com/moveindustries/bcs.git", rev = "d31fab9d81748e2594be5cd5cdf845786a30562d" }
 bindgen = "0.69.2"
 chrono = "0.4.41"
 clap = { version = "4.5.51", features = [
@@ -79,5 +79,5 @@ debug = true
 overflow-checks = true
 
 [patch.crates-io]
-merlin = { git = "https://github.com/aptos-labs/merlin" }
-x25519-dalek = { git = "https://github.com/aptos-labs/x25519-dalek", branch = "zeroize_v1" }
+merlin = { git = "https://github.com/moveindustries/merlin" }
+x25519-dalek = { git = "https://github.com/moveindustries/x25519-dalek", branch = "zeroize_v1" }

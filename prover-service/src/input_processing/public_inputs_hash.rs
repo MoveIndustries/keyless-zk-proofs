@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 use super::field_check_input;
 use crate::external_resources::prover_config::ProverServiceConfig;

@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 use aptos_keyless_common::snark_js_groth16::SnarkJsGroth16VerificationKey;
 use aptos_keyless_common::types::OnChainGroth16VerificationKey;

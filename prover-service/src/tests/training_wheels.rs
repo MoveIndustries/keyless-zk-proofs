@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 use crate::request_handler::training_wheels;
 use crate::tests::types::TestJWKKeyPair;

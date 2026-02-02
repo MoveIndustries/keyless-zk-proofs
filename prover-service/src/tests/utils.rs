@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 use crate::tests::types::{DefaultTestJWKKeyPair, TestJWKKeyPair};
 use num_bigint::BigUint;

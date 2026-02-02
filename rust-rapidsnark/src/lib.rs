@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 #![allow(non_upper_case_globals)]
 #![allow(non_camel_case_types)]

@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 use crate::input_processing::encoding::{AsFr, FromFr, TryFromFr};
 use anyhow::anyhow;

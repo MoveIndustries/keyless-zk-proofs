@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 use aptos_build_info::build_information;
 use aptos_crypto::ed25519::Ed25519PublicKey;

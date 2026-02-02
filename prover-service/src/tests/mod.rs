@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 pub mod federated_jwk;
 pub mod jwk_fetcher;
 pub mod prover_handler;

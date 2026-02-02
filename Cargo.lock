@@ -176,7 +176,7 @@ checksum = "a23eb6b1614318a8071c9b2521f36b424b2c83db5eb3a0fead4a6c0809af6e61"
 [[package]]
 name = "aptos-bitvec"
 version = "0.1.0"
-source = "git+https://github.com/aptos-labs/aptos-core?branch=main#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
+source = "git+https://github.com/moveindustries/aptos-core?branch=l1-migration#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
 dependencies = [
  "serde",
  "serde_bytes",
@@ -185,7 +185,7 @@ dependencies = [
 [[package]]
 name = "aptos-build-info"
 version = "0.1.0"
-source = "git+https://github.com/aptos-labs/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627#0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627"
+source = "git+https://github.com/moveindustries/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627#0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627"
 dependencies = [
  "shadow-rs",
 ]
@@ -193,11 +193,11 @@ dependencies = [
 [[package]]
 name = "aptos-crypto"
 version = "0.0.3"
-source = "git+https://github.com/aptos-labs/aptos-core?branch=main#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
+source = "git+https://github.com/moveindustries/aptos-core?branch=l1-migration#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
 dependencies = [
  "aes-gcm",
  "anyhow",
- "aptos-crypto-derive 0.0.3 (git+https://github.com/aptos-labs/aptos-core?branch=main)",
+ "aptos-crypto-derive 0.0.3 (git+https://github.com/moveindustries/aptos-core?branch=l1-migration)",
  "ark-bn254",
  "ark-ec",
  "ark-ff",
@@ -244,7 +244,7 @@ dependencies = [
 [[package]]
 name = "aptos-crypto-derive"
 version = "0.0.3"
-source = "git+https://github.com/aptos-labs/aptos-core?branch=main#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
+source = "git+https://github.com/moveindustries/aptos-core?branch=l1-migration#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -254,7 +254,7 @@ dependencies = [
 [[package]]
 name = "aptos-crypto-derive"
 version = "0.0.3"
-source = "git+https://github.com/aptos-labs/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627#0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627"
+source = "git+https://github.com/moveindustries/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627#0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -264,11 +264,11 @@ dependencies = [
 [[package]]
 name = "aptos-dkg"
 version = "0.1.0"
-source = "git+https://github.com/aptos-labs/aptos-core?branch=main#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
+source = "git+https://github.com/moveindustries/aptos-core?branch=l1-migration#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
 dependencies = [
  "anyhow",
  "aptos-crypto",
- "aptos-crypto-derive 0.0.3 (git+https://github.com/aptos-labs/aptos-core?branch=main)",
+ "aptos-crypto-derive 0.0.3 (git+https://github.com/moveindustries/aptos-core?branch=l1-migration)",
  "aptos-runtimes",
  "bcs",
  "blst",
@@ -296,7 +296,7 @@ dependencies = [
 [[package]]
 name = "aptos-experimental-runtimes"
 version = "0.1.0"
-source = "git+https://github.com/aptos-labs/aptos-core?branch=main#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
+source = "git+https://github.com/moveindustries/aptos-core?branch=l1-migration#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
 dependencies = [
  "aptos-runtimes",
  "core_affinity",
@@ -309,12 +309,12 @@ dependencies = [
 [[package]]
 name = "aptos-infallible"
 version = "0.1.0"
-source = "git+https://github.com/aptos-labs/aptos-core?branch=main#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
+source = "git+https://github.com/moveindustries/aptos-core?branch=l1-migration#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
 
 [[package]]
 name = "aptos-infallible"
 version = "0.1.0"
-source = "git+https://github.com/aptos-labs/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627#0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627"
+source = "git+https://github.com/moveindustries/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627#0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627"
 
 [[package]]
 name = "aptos-keyless-circuit"
@@ -374,7 +374,7 @@ dependencies = [
 [[package]]
 name = "aptos-log-derive"
 version = "0.1.0"
-source = "git+https://github.com/aptos-labs/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627#0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627"
+source = "git+https://github.com/moveindustries/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627#0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -384,9 +384,9 @@ dependencies = [
 [[package]]
 name = "aptos-logger"
 version = "0.1.0"
-source = "git+https://github.com/aptos-labs/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627#0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627"
+source = "git+https://github.com/moveindustries/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627#0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627"
 dependencies = [
- "aptos-infallible 0.1.0 (git+https://github.com/aptos-labs/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627)",
+ "aptos-infallible 0.1.0 (git+https://github.com/moveindustries/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627)",
  "aptos-log-derive",
  "backtrace",
  "chrono",
@@ -407,7 +407,7 @@ dependencies = [
 [[package]]
 name = "aptos-metrics-core"
 version = "0.1.0"
-source = "git+https://github.com/aptos-labs/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627#0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627"
+source = "git+https://github.com/moveindustries/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627#0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627"
 dependencies = [
  "anyhow",
  "once_cell",
@@ -418,7 +418,7 @@ dependencies = [
 [[package]]
 name = "aptos-runtimes"
 version = "0.1.0"
-source = "git+https://github.com/aptos-labs/aptos-core?branch=main#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
+source = "git+https://github.com/moveindustries/aptos-core?branch=l1-migration#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
 dependencies = [
  "rayon",
  "tokio",
@@ -427,9 +427,9 @@ dependencies = [
 [[package]]
 name = "aptos-time-service"
 version = "0.1.0"
-source = "git+https://github.com/aptos-labs/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627#0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627"
+source = "git+https://github.com/moveindustries/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627#0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627"
 dependencies = [
- "aptos-infallible 0.1.0 (git+https://github.com/aptos-labs/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627)",
+ "aptos-infallible 0.1.0 (git+https://github.com/moveindustries/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627)",
  "enum_dispatch",
  "futures",
  "pin-project",
@@ -440,15 +440,15 @@ dependencies = [
 [[package]]
 name = "aptos-types"
 version = "0.0.3"
-source = "git+https://github.com/aptos-labs/aptos-core?branch=main#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
+source = "git+https://github.com/moveindustries/aptos-core?branch=l1-migration#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
 dependencies = [
  "anyhow",
  "aptos-bitvec",
  "aptos-crypto",
- "aptos-crypto-derive 0.0.3 (git+https://github.com/aptos-labs/aptos-core?branch=main)",
+ "aptos-crypto-derive 0.0.3 (git+https://github.com/moveindustries/aptos-core?branch=l1-migration)",
  "aptos-dkg",
  "aptos-experimental-runtimes",
- "aptos-infallible 0.1.0 (git+https://github.com/aptos-labs/aptos-core?branch=main)",
+ "aptos-infallible 0.1.0 (git+https://github.com/moveindustries/aptos-core?branch=l1-migration)",
  "ark-bn254",
  "ark-ff",
  "ark-groth16",
@@ -790,7 +790,7 @@ checksum = "8c3c1a368f70d6cf7302d78f8f7093da241fb8e8807c05cc9e51a125895a6d5b"
 [[package]]
 name = "bcs"
 version = "0.1.4"
-source = "git+https://github.com/aptos-labs/bcs.git?rev=d31fab9d81748e2594be5cd5cdf845786a30562d#d31fab9d81748e2594be5cd5cdf845786a30562d"
+source = "git+https://github.com/moveindustries/bcs.git?rev=d31fab9d81748e2594be5cd5cdf845786a30562d#d31fab9d81748e2594be5cd5cdf845786a30562d"
 dependencies = [
  "serde",
  "thiserror",
@@ -2947,7 +2947,7 @@ checksum = "523dc4f511e55ab87b694dc30d0f820d60906ef06413f93d4d7a1385599cc149"
 [[package]]
 name = "merlin"
 version = "3.0.0"
-source = "git+https://github.com/aptos-labs/merlin#3454ccc85e37355c729ba40e6dac6e867ddf59f5"
+source = "git+https://github.com/moveindustries/merlin#3454ccc85e37355c729ba40e6dac6e867ddf59f5"
 dependencies = [
  "byteorder",
  "keccak",
@@ -2996,7 +2996,7 @@ checksum = "1fafa6961cabd9c63bcd77a45d7e3b7f3b552b70417831fb0f56db717e72407e"
 [[package]]
 name = "move-binary-format"
 version = "0.0.3"
-source = "git+https://github.com/aptos-labs/aptos-core?branch=main#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
+source = "git+https://github.com/moveindustries/aptos-core?branch=l1-migration#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
 dependencies = [
  "anyhow",
  "backtrace",
@@ -3011,12 +3011,12 @@ dependencies = [
 [[package]]
 name = "move-borrow-graph"
 version = "0.0.1"
-source = "git+https://github.com/aptos-labs/aptos-core?branch=main#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
+source = "git+https://github.com/moveindustries/aptos-core?branch=l1-migration#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
 
 [[package]]
 name = "move-bytecode-spec"
 version = "0.1.0"
-source = "git+https://github.com/aptos-labs/aptos-core?branch=main#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
+source = "git+https://github.com/moveindustries/aptos-core?branch=l1-migration#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
 dependencies = [
  "once_cell",
  "quote",
@@ -3026,7 +3026,7 @@ dependencies = [
 [[package]]
 name = "move-bytecode-verifier"
 version = "0.1.0"
-source = "git+https://github.com/aptos-labs/aptos-core?branch=main#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
+source = "git+https://github.com/moveindustries/aptos-core?branch=l1-migration#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
 dependencies = [
  "fail",
  "move-binary-format",
@@ -3040,7 +3040,7 @@ dependencies = [
 [[package]]
 name = "move-core-types"
 version = "0.0.4"
-source = "git+https://github.com/aptos-labs/aptos-core?branch=main#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
+source = "git+https://github.com/moveindustries/aptos-core?branch=l1-migration#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
 dependencies = [
  "anyhow",
  "bcs",
@@ -3062,7 +3062,7 @@ dependencies = [
 [[package]]
 name = "move-table-extension"
 version = "0.1.0"
-source = "git+https://github.com/aptos-labs/aptos-core?branch=main#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
+source = "git+https://github.com/moveindustries/aptos-core?branch=l1-migration#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
 dependencies = [
  "better_any",
  "bytes",
@@ -3077,7 +3077,7 @@ dependencies = [
 [[package]]
 name = "move-vm-runtime"
 version = "0.1.0"
-source = "git+https://github.com/aptos-labs/aptos-core?branch=main#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
+source = "git+https://github.com/moveindustries/aptos-core?branch=l1-migration#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
 dependencies = [
  "better_any",
  "bytes",
@@ -3100,7 +3100,7 @@ dependencies = [
 [[package]]
 name = "move-vm-types"
 version = "0.1.0"
-source = "git+https://github.com/aptos-labs/aptos-core?branch=main#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
+source = "git+https://github.com/moveindustries/aptos-core?branch=l1-migration#b163f034c0e1e01b59cef44694da9dbccb4d5b63"
 dependencies = [
  "bcs",
  "bytes",
@@ -3901,8 +3901,8 @@ dependencies = [
  "anyhow",
  "aptos-build-info",
  "aptos-crypto",
- "aptos-crypto-derive 0.0.3 (git+https://github.com/aptos-labs/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627)",
- "aptos-infallible 0.1.0 (git+https://github.com/aptos-labs/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627)",
+ "aptos-crypto-derive 0.0.3 (git+https://github.com/moveindustries/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627)",
+ "aptos-infallible 0.1.0 (git+https://github.com/moveindustries/aptos-core?rev=0ce3ac3a3e51c57b7e02ca8ed9010f6eda67d627)",
  "aptos-keyless-common",
  "aptos-logger",
  "aptos-metrics-core",
@@ -5974,7 +5974,7 @@ dependencies = [
 [[package]]
 name = "x25519-dalek"
 version = "1.2.0"
-source = "git+https://github.com/aptos-labs/x25519-dalek?branch=zeroize_v1#762a9501668d213daa4a1864fa1f9db22716b661"
+source = "git+https://github.com/moveindustries/x25519-dalek?branch=zeroize_v1#762a9501668d213daa4a1864fa1f9db22716b661"
 dependencies = [
  "curve25519-dalek",
  "rand_core 0.5.1",

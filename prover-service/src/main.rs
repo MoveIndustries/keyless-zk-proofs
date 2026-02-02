@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 use aptos_crypto::ed25519::Ed25519PrivateKey;
 use aptos_crypto::ValidCryptoMaterialStringExt;

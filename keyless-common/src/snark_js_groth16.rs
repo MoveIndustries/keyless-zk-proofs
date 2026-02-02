@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 // TODO(Alin): This file should be removed from and reconciled with `prover/groth16_vk.rs`
 use crate::types::{OnChainGroth16VerificationKey, VKeyData};

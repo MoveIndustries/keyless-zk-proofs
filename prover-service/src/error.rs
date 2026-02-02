@@ -1,4 +1,4 @@
-// Copyright (c) Aptos Foundation
+// Copyright (c) Move Industries
 
 use aptos_logger::error;
 use serde::{Deserialize, Serialize};
