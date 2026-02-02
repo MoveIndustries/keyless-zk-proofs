@@ -19,7 +19,7 @@ class Releases:
 
     def __init__(self, repo='keyless-zk-proofs', auth_token=None):
         self.auth_token = auth_token
-        self.data = utils.read_json_from_url(f"https://api.github.com/repos/aptos-labs/{repo}/releases", auth_token)
+        self.data = utils.read_json_from_url(f"https://api.github.com/repos/MoveIndustries/{repo}/releases", auth_token)
         # Convert the 'created_at' field to a datetime so that we can
         # sort based on it
         for release in self.data:
